@@ -1,23 +1,32 @@
 <!DOCTYPE html>
+<!--Beacon所得情報管理システムのホーム画面-->
 <html>
 <head>
   <meta charset = "UTF-8">
-  <title>位置推定</title>
+  <title>Beacon取得情報管理システム</title>
 </head>
 <BODY>
   <center>
-<h1>Beacon所得情報管理システム</h1>
-<form action="beacon.php" method="post">
- <input type="submit" value="Beacon情報管理画面" />
- </form>
- <br></br>
-<form action="learn.php" method="post">
- <input type="submit" value="学習用データアップロード" />
- </form>
-<br></br>
-<form action="test.php" method="post">
- <input type="submit" value="テスト用データアップロード" />
- </form>
-</center>
+    <h1>Beacon取得情報管理システム</h1>
+    <!--Beacon情報管理画面のページへ遷移するボタンの表示-->
+    <form action="beacon.php" method="post">
+      <input type="submit" value="Beacon情報管理画面" />
+    </form>
+    <br></br>
+    <!--学習用データアップロードのページへ遷移するボタンの表示-->
+    <form action="learn.php" method="post">
+      <input type="submit" value="学習用データアップロード" />
+    </form>
+    <br></br>
+    <!--テスト用データアップロードのページへ遷移するボタンの表示-->
+    <form action="test.php" method="post">
+      <input type="submit" value="テスト用データアップロード" />
+    </form>
+    <br></br>
+    <!--推定結果表示のページへ遷移するボタンの表示-->
+    <form action="estimate.php" method="post">
+      <input type="submit" value="推定結果表示" />
+    </form>
+  </center>
 </BODY>
 </html>
